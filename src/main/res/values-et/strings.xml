@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- common strings without special context -->
-    <string name="app_name">Delta Chat</string>
+    <string name="app_name">Seep</string>
     <string name="ok">Sobib</string>
     <string name="cancel">Katkesta</string>
     <string name="clear_search">Eemalda otsing</string>
@@ -362,7 +362,7 @@
     <!-- Menu item beside an app/chat that adds an icon to the system's home screen. If the user taps that icon, the app/chat is opened directly. -->
     <string name="add_to_home_screen">Lisa avaekraanile</string>
     <string name="donate">Toeta arendust</string>
-    <string name="donate_device_msg">❤️ Tundub, et Delta Chat meeldib sulle!\n\nTagamaks, et Delta Chat jääb kõigi jaoks vabaks ning tasuta kasutatavaks, palun kaalu projekti rahalist toetamist.\n\nKuigi Delta Chat on vabalt pruugitav ja põhineb avatud lähtekoodil, siis arenduseks kulub paratamatult raha. Sinu toetus võimaldab Delta Chatil jääda sõltumatuks ning iga uue versiooniga muutuda aina paremaks.\n\nhttps://delta.chat/donate</string>
+    <string name="donate_device_msg">❤️ Tundub, et Seep meeldib sulle!\n\nTagamaks, et Seep jääb kõigi jaoks vabaks ning tasuta kasutatavaks, palun kaalu projekti rahalist toetamist.\n\nKuigi Seep on vabalt pruugitav ja põhineb avatud lähtekoodil, siis arenduseks kulub paratamatult raha. Sinu toetus võimaldab Seepil jääda sõltumatuks ning iga uue versiooniga muutuda aina paremaks.\n\nhttps://delta.chat/donate</string>
 
     <string name="mute_for_one_hour">Summuta üheks tunniks</string>
     <string name="mute_for_eight_hours">Summuta kaheksaks tunniks</string>

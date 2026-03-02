@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- common strings without special context -->
-    <string name="app_name">Delta Chat</string>
+    <string name="app_name">Seep</string>
     <string name="ok">Ados</string>
     <string name="cancel">Utzi</string>
     <string name="clear_search">Garbitu bilaketa</string>
@@ -362,7 +362,7 @@
     <!-- Menu item beside an app/chat that adds an icon to the system's home screen. If the user taps that icon, the app/chat is opened directly. -->
     <string name="add_to_home_screen">Gehitu hasierako pantailan</string>
     <string name="donate">Egin dohaintza</string>
-    <string name="donate_device_msg">❤️ Badirudi Delta Chat-ekin gozatzen ari zarela!\n\nMesedez, pentsatu dohaintza bat egitea Delta Chat guztiontzat doakoa izan dadin laguntzeko.\n\nDelta Chat-en erabilera doakoa eta kode irekikoa den arren, garapenak dirua balio du. Lagundu iezaguzu Delta Chat independente mantentzen eta etorkizunean are hobea egiten.\n\nhttps://delta.chat/donate</string>
+    <string name="donate_device_msg">❤️ Badirudi Seep-ekin gozatzen ari zarela!\n\nMesedez, pentsatu dohaintza bat egitea Seep guztiontzat doakoa izan dadin laguntzeko.\n\nSeep-en erabilera doakoa eta kode irekikoa den arren, garapenak dirua balio du. Lagundu iezaguzu Seep independente mantentzen eta etorkizunean are hobea egiten.\n\nhttps://delta.chat/donate</string>
 
     <string name="mute_for_one_hour">Mututu ordubete</string>
     <string name="mute_for_eight_hours">Mututu 8 ordu</string>

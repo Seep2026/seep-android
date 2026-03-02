@@ -735,7 +735,7 @@ public class NotificationCenter {
                     .setSmallIcon(R.drawable.icon_notification)
                     .setColor(context.getResources().getColor(R.color.delta_primary, null))
                     .setCategory(NotificationCompat.CATEGORY_MESSAGE)
-                    .setContentTitle("Delta Chat") // content title would only be used on SDK <24
+                    .setContentTitle("Seep") // content title would only be used on SDK <24
                     .setContentText("New messages") // content text would only be used on SDK <24
                     .setContentIntent(getOpenChatlistIntent(accountId));
                   if (privacy.isDisplayContact() && !TextUtils.isEmpty(accountTag)) {

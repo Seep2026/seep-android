@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- common strings without special context -->
-    <string name="app_name">Delta Chat</string>
+    <string name="app_name">Seep</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="clear_search">Clear Search</string>
@@ -362,7 +362,7 @@
     <!-- Menu item beside an app/chat that adds an icon to the system's home screen. If the user taps that icon, the app/chat is opened directly. -->
     <string name="add_to_home_screen">Add to Home Screen</string>
     <string name="donate">Donate</string>
-    <string name="donate_device_msg">❤️ Seems you\'re enjoying Delta Chat!\n\nPlease consider donating to help ensure that Delta Chat stays free for everyone.\n\nWhile Delta Chat is free to use and open source, development costs money. Help us to keep Delta Chat independent and make it even more awesome in the future.\n\nhttps://delta.chat/donate</string>
+    <string name="donate_device_msg">❤️ Seems you\'re enjoying Seep!\n\nPlease consider donating to help ensure that Seep stays free for everyone.\n\nWhile Seep is free to use and open source, development costs money. Help us to keep Seep independent and make it even more awesome in the future.\n\nhttps://delta.chat/donate</string>
 
     <string name="mute_for_one_hour">Mute for 1 hour</string>
     <string name="mute_for_eight_hours">Mute for 8 hours</string>
@@ -1072,7 +1072,7 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">This is the official Delta Chat Desktop app.</string>
     <string name="about_licensed_under_desktop">This software is licensed under GNU GPL version 3 and the source code is available on GitHub.</string>
-    <string name="welcome_desktop">Welcome to Delta Chat</string>
+    <string name="welcome_desktop">Welcome to Seep</string>
     <string name="global_menu_preferences_language_desktop">Language</string>
     <string name="global_menu_file_desktop">File</string>
     <string name="global_menu_file_quit_desktop">Quit</string>

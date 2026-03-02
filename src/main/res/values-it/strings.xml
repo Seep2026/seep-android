@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- common strings without special context -->
-    <string name="app_name">Delta Chat</string>
+    <string name="app_name">Seep</string>
     <string name="ok">OK</string>
     <string name="cancel">Annulla</string>
     <string name="clear_search">Cancella Ricerca</string>
@@ -373,7 +373,7 @@
     <!-- Menu item beside an app/chat that adds an icon to the system's home screen. If the user taps that icon, the app/chat is opened directly. -->
     <string name="add_to_home_screen">Aggiungi alla Schermata Iniziale</string>
     <string name="donate">Dona</string>
-    <string name="donate_device_msg">❤️ Sembra che Delta Chat ti piaccia!\n\nConsidera una donazione per contribuire a garantire che Delta Chat rimanga gratuita per tutti.\n\nSebbene Delta Chat sia gratuita e open source, lo sviluppo richiede soldi. Aiutaci a mantenere Delta Chat indipendente e a renderla ancora più fantastica in futuro.\n\nhttps://delta.chat/donate</string>
+    <string name="donate_device_msg">❤️ Sembra che Seep ti piaccia!\n\nConsidera una donazione per contribuire a garantire che Seep rimanga gratuita per tutti.\n\nSebbene Seep sia gratuita e open source, lo sviluppo richiede soldi. Aiutaci a mantenere Seep indipendente e a renderla ancora più fantastica in futuro.\n\nhttps://delta.chat/donate</string>
 
     <string name="mute_for_one_hour">Silenzia per 1 ora</string>
     <string name="mute_for_eight_hours">Silenzia per 8 ore</string>

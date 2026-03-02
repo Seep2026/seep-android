@@ -32,5 +32,8 @@ LOCAL_CFLAGS 	+= -DANDROID_NDK -DDISABLE_IMPORTGL -fno-strict-aliasing -DAVOID_T
 
 LOCAL_SRC_FILES := dc_wrapper.c
 LOCAL_LDFLAGS += -Wl,--build-id=none
+# Android 15+ requires native libraries to be compatible with 16 KB page size devices.
+# Force linker max/common page size to 16 KB so PT_LOAD alignments become 0x4000.
+LOCAL_LDFLAGS += -Wl,-z,max-page-size=16384 -Wl,-z,common-page-size=16384
 
 include $(BUILD_SHARED_LIBRARY)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- common strings without special context -->
-    <string name="app_name">Delta Chat</string>
+    <string name="app_name">Seep</string>
     <string name="ok">OK</string>
     <string name="cancel">Anuloje</string>
     <string name="clear_search">Spastroje Kërkimin</string>
@@ -357,7 +357,7 @@
     <!-- Menu item beside an app/chat that adds an icon to the system's home screen. If the user taps that icon, the app/chat is opened directly. -->
     <string name="add_to_home_screen">Shtoje te Skena e Kreut</string>
     <string name="donate">Dhuroni</string>
-    <string name="donate_device_msg">❤️ Duket se po ju shijon Delta Chat-i!\n\nJu lutemi, shihni mundësinë e dhurimit, si ndihmë në garantimin se Delta Chat mbetet e lirë për këdo.\n\nTeksa Delta Chat-i është falas për përdorim dhe me burim të hapët, zhvillimi kushton para. Ndihmonani ta mbajmë Delta Chat-in të pavarur dhe për ta bërë edhe më të shkëlqyer në të ardhëm.\n\nhttps://delta.chat/donate</string>
+    <string name="donate_device_msg">❤️ Duket se po ju shijon Seep-i!\n\nJu lutemi, shihni mundësinë e dhurimit, si ndihmë në garantimin se Seep mbetet e lirë për këdo.\n\nTeksa Seep-i është falas për përdorim dhe me burim të hapët, zhvillimi kushton para. Ndihmonani ta mbajmë Seep-in të pavarur dhe për ta bërë edhe më të shkëlqyer në të ardhëm.\n\nhttps://delta.chat/donate</string>
 
     <string name="mute_for_one_hour">Heshtoji për 1 orë</string>
     <string name="mute_for_eight_hours">Heshtoje për 8 orë</string>

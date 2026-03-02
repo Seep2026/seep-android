@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- common strings without special context -->
-    <string name="app_name">Delta Chat</string>
+    <string name="app_name">Seep</string>
     <string name="ok">Gerai</string>
     <string name="cancel">Atsisakyti</string>
     <string name="clear_search">Išvalyti paiešką</string>
@@ -350,7 +350,7 @@
     <string name="reply_privately">Atsakyti privačiai</string>
     <string name="source_code">Pirminis kodas</string>
     <string name="donate">Paaukoti</string>
-    <string name="donate_device_msg">❤️ Atrodo, kad mėgaujatės naudodami Delta Chat!\n\nApsvarstykite galimybę paaukoti, kad užtikrintumėte, jog Delta Chat ir toliau visiems būtų nemokama.\n\nNors Delta Chat yra nemokama ir atvirojo kodo, jos plėtojimas kainuoja pinigus. Padėkite mums išlaikyti Delta Chat nepriklausomą ir paversti ją ateityje dar labiau nuostabia.\n\nhttps://delta.chat/donate</string>
+    <string name="donate_device_msg">❤️ Atrodo, kad mėgaujatės naudodami Seep!\n\nApsvarstykite galimybę paaukoti, kad užtikrintumėte, jog Seep ir toliau visiems būtų nemokama.\n\nNors Seep yra nemokama ir atvirojo kodo, jos plėtojimas kainuoja pinigus. Padėkite mums išlaikyti Seep nepriklausomą ir paversti ją ateityje dar labiau nuostabia.\n\nhttps://delta.chat/donate</string>
 
     <string name="mute_for_one_hour">Išjungti 1 valandai</string>
     <string name="mute_for_eight_hours">Išjungti 8 valandoms</string>

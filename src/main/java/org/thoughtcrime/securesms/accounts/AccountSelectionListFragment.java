@@ -1,6 +1,5 @@
 package org.thoughtcrime.securesms.accounts;
 
-import static com.b44t.messenger.DcContact.DC_CONTACT_ID_ADD_ACCOUNT;
 import static org.thoughtcrime.securesms.connect.DcHelper.CONFIG_PRIVATE_TAG;
 
 import android.app.Activity;
@@ -64,8 +63,9 @@ public class AccountSelectionListFragment extends DialogFragment implements DcEv
   @Override
   public Dialog onCreateDialog(Bundle savedInstanceState) {
     selectOnly = getArguments() != null && getArguments().getBoolean(ARG_SELECT_ONLY, false);
+    int titleRes = selectOnly ? R.string.switch_account : R.string.current_profile;
     AlertDialog.Builder builder = new AlertDialog.Builder(requireActivity())
-            .setTitle(R.string.switch_account)
+            .setTitle(titleRes)
             .setNegativeButton(R.string.cancel, null);
     if (!selectOnly) {
       builder.setNeutralButton(R.string.connectivity, ((dialog, which) -> {
@@ -105,14 +105,7 @@ public class AccountSelectionListFragment extends DialogFragment implements DcEv
 
     DcAccounts accounts = DcHelper.getAccounts(getActivity());
     int[] accountIds = accounts.getAll();
-
-    int[] ids = new int[(selectOnly? 0 : 1) + accountIds.length];
-    int j = 0;
-    for (int accountId : accountIds) {
-      ids[j++] = accountId;
-    }
-    if (!selectOnly) ids[j] = DC_CONTACT_ID_ADD_ACCOUNT;
-    adapter.changeData(ids, accounts.getSelectedAccount().getAccountId());
+    adapter.changeData(accountIds, accounts.getSelectedAccount().getAccountId());
   }
 
   @Override
@@ -261,9 +254,7 @@ public class AccountSelectionListFragment extends DialogFragment implements DcEv
       AccountSelectionListFragment.this.dismiss();
       ConversationListActivity activity = (ConversationListActivity)requireActivity();
       int accountId = contact.getAccountId();
-      if (accountId == DC_CONTACT_ID_ADD_ACCOUNT) {
-        AccountManager.getInstance().switchAccountAndStartActivity(activity, 0);
-      } else if (accountId != DcHelper.getAccounts(activity).getSelectedAccount().getAccountId()) {
+      if (accountId != DcHelper.getAccounts(activity).getSelectedAccount().getAccountId()) {
         AccountManager.getInstance().switchAccount(activity, accountId);
         activity.onProfileSwitched(accountId);
       }

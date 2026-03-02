@@ -73,7 +73,7 @@ public class InstantOnboardingActivity extends BaseActionBarActivity implements 
   private static final String DCACCOUNT = "dcaccount";
   private static final String DCLOGIN = "dclogin";
   private static final String INSTANCES_URL = "https://chatmail.at/relays";
-  private static final String DEFAULT_CHATMAIL_HOST = "nine.testrun.org";
+  private static final String DEFAULT_CHATMAIL_HOST = "mail.seep.im";
 
   private static final int REQUEST_CODE_AVATAR = 1;
 

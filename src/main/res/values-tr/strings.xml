@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- common strings without special context -->
-    <string name="app_name">Delta Chat</string>
+    <string name="app_name">Seep</string>
     <string name="ok">Tamam</string>
     <string name="cancel">İptal</string>
     <string name="clear_search">Aramayı Temizle</string>
@@ -362,7 +362,7 @@
     <!-- Menu item beside an app/chat that adds an icon to the system's home screen. If the user taps that icon, the app/chat is opened directly. -->
     <string name="add_to_home_screen">Ana Ekrana Ekle</string>
     <string name="donate">Bağış</string>
-    <string name="donate_device_msg">❤️ Delta Chat\'in tadını çıkarıyor gibisiniz!\n\nDelta Chat\'in herkes için ücretsiz kalmasını sağlamak için lütfen bağış yapmayı düşünün.\n\nDelta Chat, kullanımı ücretsiz ve açık kaynaklıdır, geliştirme paraya mâl olur. Delta Chat\'in bağımsızlığını korumak ve onu gelecekte daha da harika yapmak için bize yardımcı olun.\n\nhttps://delta.chat/donate</string>
+    <string name="donate_device_msg">❤️ Seep\'in tadını çıkarıyor gibisiniz!\n\nSeep\'in herkes için ücretsiz kalmasını sağlamak için lütfen bağış yapmayı düşünün.\n\nSeep, kullanımı ücretsiz ve açık kaynaklıdır, geliştirme paraya mâl olur. Seep\'in bağımsızlığını korumak ve onu gelecekte daha da harika yapmak için bize yardımcı olun.\n\nhttps://delta.chat/donate</string>
 
     <string name="mute_for_one_hour">1 saatliğine sessize al</string>
     <string name="mute_for_eight_hours">8 saatliğine sessize al</string>

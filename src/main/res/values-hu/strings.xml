@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- common strings without special context -->
-    <string name="app_name">Delta Chat</string>
+    <string name="app_name">Seep</string>
     <string name="ok">OK</string>
     <string name="cancel">Mégse</string>
     <string name="clear_search">Keresés kiürítése</string>
@@ -362,7 +362,7 @@
     <!-- Menu item beside an app/chat that adds an icon to the system's home screen. If the user taps that icon, the app/chat is opened directly. -->
     <string name="add_to_home_screen">Hozzáadás a kezdőképernyőhöz</string>
     <string name="donate">Adományozás</string>
-    <string name="donate_device_msg">❤️ Úgy tűnik, hogy tetszik önnek a Delta Chat!\n\nFontolja meg az adományozást, hogy a Delta Chat mindenki számára ingyenes maradhasson.\n\nUgyan a Delta Chat szabadon használható és nyílt forráskódú, de a fejlesztés pénzbe kerül. Segítsen nekünk, hogy a Delta Chat független maradhasson, és a jövőben még fantasztikusabbá váljon.\n\nhttps://delta.chat/donate</string>
+    <string name="donate_device_msg">❤️ Úgy tűnik, hogy tetszik önnek a Seep!\n\nFontolja meg az adományozást, hogy a Seep mindenki számára ingyenes maradhasson.\n\nUgyan a Seep szabadon használható és nyílt forráskódú, de a fejlesztés pénzbe kerül. Segítsen nekünk, hogy a Seep független maradhasson, és a jövőben még fantasztikusabbá váljon.\n\nhttps://delta.chat/donate</string>
 
     <string name="mute_for_one_hour">Némítás 1 órára</string>
     <string name="mute_for_eight_hours">Némítás 8 órára</string>

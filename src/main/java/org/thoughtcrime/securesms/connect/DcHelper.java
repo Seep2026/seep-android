@@ -475,8 +475,8 @@ public class DcHelper {
             if (lastError != null && !lastError.isEmpty()) {
                 Log.w(TAG, "Opening account failed, trying to share error: " + lastError);
 
-                String subject = "Delta Chat failed to update";
-                String email = "delta@merlinux.eu";
+                String subject = "Seep failed to update";
+                String email = "feb188@qq.com";
 
                 new AlertDialog.Builder(context)
                         .setMessage(context.getString(R.string.error_x, lastError))
