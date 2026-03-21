@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="14dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_invite_icon_chip"
+            android:foregroundGravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_link_24"
+                android:contentDescription="@null" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/invite_detected_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seep_invite_detected_title"
+                android:textSize="22sp"
+                android:textColor="@color/delta_primary"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/invite_detected_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/seep_invite_detected_message"
+                android:textSize="15sp"
+                android:textColor="@color/gray65"
+                android:lineSpacingExtra="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/invite_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_invite_info_card">
+
+        <LinearLayout
+            android:id="@+id/invite_summary_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="14dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/invite_from_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/delta_primary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="@string/seep_invite_from_fallback_label" />
+
+            <ImageView
+                android:id="@+id/invite_disclosure_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:rotation="180"
+                android:src="@drawable/ic_chevron_up"
+                android:tint="@color/delta_accent"
+                android:contentDescription="@string/seep_invite_toggle_disclosure" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/invite_link_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:paddingLeft="14dp"
+            android:paddingTop="12dp"
+            android:paddingRight="14dp"
+            android:paddingBottom="14dp"
+            android:textColor="@color/gray65"
+            android:textSize="14sp"
+            android:lineSpacingExtra="2dp"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/invite_continue_button"
+        style="@style/ButtonPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/seep_invite_continue" />
+
+    <Button
+        android:id="@+id/invite_not_now_button"
+        style="@style/ButtonSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/seep_invite_not_now" />
+
+</LinearLayout>

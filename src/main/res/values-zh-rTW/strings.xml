@@ -875,6 +875,15 @@
     <string name="qrscan_no_addr_found">此 QR 碼包含指紋，但不包含電子郵件位址。\n\n要進行帶外驗證，請先與收件者建立加密連接。</string>
     <string name="qrscan_contains_text">掃描的 QR 碼文本：\n\n%1$s</string>
     <string name="qrscan_contains_url">掃描的 QR 碼 URL：\n\n%1$s</string>
+    <string name="seep_invite_detected_title">偵測到 Seep 邀請連結</string>
+    <string name="seep_invite_detected_message">我們在你的剪貼簿中發現了已複製的邀請連結。是否繼續在 Seep 中開始這次連線？</string>
+    <string name="seep_invite_from_label">來自 %1$s 的邀請</string>
+    <string name="seep_invite_from_fallback_label">來自 Seep 的邀請</string>
+    <string name="seep_invite_name_fallback">Seep</string>
+    <string name="seep_invite_toggle_disclosure">展開或收合完整邀請連結</string>
+    <string name="seep_invite_continue">繼續</string>
+    <string name="seep_invite_not_now">稍後</string>
+    <string name="clipboard_invite_link_invalid">剪貼簿中的邀請連結無效。</string>
     <string name="qrscan_fingerprint_label">指紋</string>
     <string name="withdraw_verifycontact_explain">其他人可以掃描此QR碼與您聯絡。您可以在此處停用QR碼，然後再次掃描以重新啟動它。</string>
     <string name="withdraw_verifygroup_explain">其他人可以掃描此 QR 碼以加入群組「%1$s」。\n\n您可以在此處停用 QR 碼，然後再次掃描以重新啟動它。</string>

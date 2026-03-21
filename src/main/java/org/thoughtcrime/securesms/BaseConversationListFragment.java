@@ -124,7 +124,11 @@ public abstract class BaseConversationListFragment extends Fragment implements A
         fab.setOnClickListener(v -> requireActivity().startActivity(intent));
       }
     } else {
-      fab.setOnClickListener(v -> startActivity(intent));
+      fab.setOnClickListener(v -> {
+        Intent startIntent = new Intent(getActivity(), NewConversationActivity.class);
+        startIntent.putExtra(NewConversationActivity.CLIPBOARD_TEXT_EXTRA, Util.getTextFromClipboard(requireActivity()));
+        startActivity(startIntent);
+      });
     }
   }
 

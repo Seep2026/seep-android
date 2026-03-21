@@ -299,11 +299,12 @@ public class Util {
   public static String getTextFromClipboard(@NonNull Context context) {
     android.content.ClipboardManager clipboard =
             (android.content.ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
-    if (clipboard.hasPrimaryClip() && clipboard.getPrimaryClipDescription().hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN)) {
-      ClipData.Item item = clipboard.getPrimaryClip().getItemAt(0);
-      return item.getText().toString();
-    }
-    return "";
+    if (clipboard == null || !clipboard.hasPrimaryClip()) return "";
+    ClipData clipData = clipboard.getPrimaryClip();
+    if (clipData == null || clipData.getItemCount() == 0) return "";
+    CharSequence text = clipData.getItemAt(0).coerceToText(context);
+    if (text == null) return "";
+    return text.toString();
   }
 
   public static int toIntExact(long value) {
