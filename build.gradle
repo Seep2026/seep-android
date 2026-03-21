@@ -28,7 +28,7 @@ android {
 
     defaultConfig {
         versionCode 744
-        versionName "2.43.2"
+        versionName "2.43.3"
 
         applicationId "com.b44t.messenger"
         multiDexEnabled true
@@ -39,7 +39,7 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         // base name of the generated apk
-        project.ext.set("archivesBaseName", "deltachat");
+        project.ext.set("archivesBaseName", "seep");
 
         buildConfigField "boolean", "DEV_BUILD", "false"
 
@@ -126,7 +126,8 @@ android {
     android.applicationVariants.all { variant ->
         variant.outputs.all {
             outputFileName = outputFileName
-                .replace("deltachat-android", "deltachat")
+                .replace("deltachat-android", "seep")
+                .replace("seep-android", "seep")
                 .replace(".apk", "-${variant.versionName}.apk")
         }
     }
